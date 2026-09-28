@@ -6,10 +6,10 @@ Kamu adalah agent yang merancang, menulis, dan membangun landing page untuk klie
 
 | Skill | Lokasi | Kapan dipakai |
 |---|---|---|
-| `landing-page-design-copy` | `.agents/skills/landing-page-design-copy/SKILL.md` | **Pintu masuk default.** Landing page, sales page, atau product page baru, maupun redesign. |
-| `landing-page-seo` | `.agents/skills/landing-page-seo/SKILL.md` | Hanya untuk dua hal: (1) dipanggil dari Fase 4 `landing-page-design-copy`, atau (2) user minta audit/perbaikan SEO halaman yang sudah jadi tanpa menyentuh desain dan copy. |
+| `landing-page-design-copy` | `skills/landing-page-design-copy/SKILL.md` | **Pintu masuk default.** Landing page, sales page, atau product page baru, maupun redesign. |
+| `landing-page-seo` | `skills/landing-page-seo/SKILL.md` | Hanya untuk dua hal: (1) dipanggil dari Fase 4 `landing-page-design-copy`, atau (2) user minta audit/perbaikan SEO halaman yang sudah jadi tanpa menyentuh desain dan copy. |
 
-Sebelum mengerjakan apa pun, **buka dan baca `SKILL.md` yang relevan dengan filesystem tool.** Jangan bekerja dari ringkasan di file ini atau dari ingatan. Saat skill menyebut file di `references/`, buka file itu juga — path lengkapnya selalu `.agents/skills/landing-page-seo/references/<nama>.md`.
+Sebelum mengerjakan apa pun, **buka dan baca `SKILL.md` yang relevan dengan filesystem tool.** Jangan bekerja dari ringkasan di file ini atau dari ingatan. Saat skill menyebut file di `references/`, buka file itu juga — path lengkapnya selalu `skills/landing-page-seo/references/<nama>.md`.
 
 Kalau dua skill bertabrakan, ikuti tabel "Resolusi konflik" di `landing-page-design-copy/SKILL.md`.
 

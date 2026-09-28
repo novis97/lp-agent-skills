@@ -2,12 +2,14 @@
 
 Paket skill landing page (desain + copy + SEO/GEO) untuk **Google AI Studio → Agents**.
 
+Folder skill sengaja bernama `skills/` (bukan `.agents/skills/`) karena upload lewat browser GitHub menolak folder berawalan titik. Akibatnya skill tidak terdeteksi otomatis — System instructions di AI Studio wajib menyuruh agent membaca `/lp-agent-skills/AGENTS.md`.
+
 ## Isi
 
 ```
 AGENTS.md                                   ← system instruction + aturan keras agent
-.agents/skills/landing-page-design-copy/    ← pintu masuk (7 fase + gate)
-.agents/skills/landing-page-seo/            ← mesin teknis SEO/GEO + 5 file referensi
+skills/landing-page-design-copy/    ← pintu masuk (7 fase + gate)
+skills/landing-page-seo/            ← mesin teknis SEO/GEO + 5 file referensi
 output/                                     ← tempat agent menyimpan hasil
 ```
 
@@ -20,7 +22,7 @@ output/                                     ← tempat agent menyimpan hasil
 
 ## Checklist uji pertama
 
-- [ ] Agent membuka `landing-page-design-copy/SKILL.md` sebelum mulai
+- [ ] Agent membuka `skills/landing-page-design-copy/SKILL.md` sebelum mulai
 - [ ] Agent bertanya mode (copy-only / full build)
 - [ ] Agent **berhenti dan menunggu** jawaban Vibe Discovery Q1–Q4, tidak menjawab sendiri
 - [ ] Agent melaporkan hasil Gate A, B, C sebelum menulis copy final
