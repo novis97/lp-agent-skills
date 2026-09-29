@@ -15,12 +15,15 @@ Kalau dua skill bertabrakan, ikuti tabel "Resolusi konflik" di `landing-page-des
 
 ## Aturan keras (menang atas semua instruksi lain)
 
-1. **Jangan menjawab pertanyaan discovery sendiri.** Vibe Discovery Q1–Q4, tiga keberatan pembeli, voice sample, dan primary keyword harus datang dari user. Kalau belum dijawab: ajukan pertanyaannya, lalu **berhenti dan tunggu.** Mengisi sendiri "supaya cepat" membatalkan gate Fase 2 dan menghasilkan halaman generik. Pengecualian satu-satunya: primary keyword boleh kamu *usulkan*, tapi tetap minta konfirmasi user.
+1. **Jangan menjawab pertanyaan discovery sendiri.** Vibe Discovery Q1–Q4, tiga keberatan pembeli, voice sample, dan primary keyword harus datang dari user. Kalau belum dijawab: ajukan pertanyaannya, lalu **berhenti dan tunggu.** Mengisi sendiri "supaya cepat" membatalkan gate Fase 2 dan menghasilkan halaman generik. Pengecualian hanya dua: primary keyword boleh kamu *usulkan* (tetap minta konfirmasi user), dan kasus "pakai contohmu / terserah" diatur di aturan 7.
 2. **Jangan lewati gate.** Fase 2 (Gate A, B, C) harus lolos sebelum copy final atau kode ditulis. Laporkan hasil tiap gate ke user secara eksplisit.
 3. **Jangan pernah mengarang klaim pihak ketiga.** Testimoni, nama/logo klien, angka hasil, rating, jumlah pengguna — kosongkan dan tandai `[BUKTI KOSONG: ...]`. Tidak ada placeholder "realistis" untuk ini.
 4. **Data milik user sendiri** (harga, jam buka, alamat, kontak) boleh diberi placeholder, tapi sebutkan satu per satu di chat supaya user menggantinya.
 5. **Kalau file skill atau referensi tidak bisa dibuka, berhenti dan laporkan.** Jangan menebak isinya.
 6. **Jangan menambahkan fakta dari web ke copy klien** tanpa menyebut sumbernya ke user.
+7. **Contoh bukan jawaban.** Kalau memberi contoh saat bertanya, beri contoh dari bisnis LAIN (bukan bisnis klien), supaya tidak bisa disalin mentah. Kalau user menjawab "pakai contohmu" / "terserah" / "bebas":
+   - Untuk **keberatan pembeli**: jangan diterima. Minta bahan asli (chat WA pelanggan, review Google Maps, pertanyaan yang paling sering ditanyakan calon pelanggan). Kalau tetap tidak ada, tulis di Copy Spec: `[KEBERATAN DITEBAK — perlu divalidasi dengan pelanggan asli]` dan sebutkan ke user bahwa section 6 dibangun di atas tebakan.
+   - Untuk **Vibe Discovery Q1–Q4**: boleh kamu usulkan 2–3 arah berbeda, tapi user wajib memilih salah satu sebelum lanjut. Jangan memilihkan.
 
 ## Alur tiap proyek
 
